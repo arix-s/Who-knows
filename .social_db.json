@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "usr_1791173051615_du6x6",
+      "name": "حمد",
+      "username": "@player_3759",
+      "avatar": "av_flame",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 8,
+      "draws": 0,
+      "totalPoints": 23482,
+      "isOnline": true,
+      "lastSeen": 1791185426491
+    },
+    {
+      "id": "usr_1791180320855_omqiv",
+      "name": "حمد",
+      "username": "@hamad",
+      "avatar": "av_shield",
+      "gamesPlayed": 11,
+      "wins": 5,
+      "losses": 6,
+      "draws": 0,
+      "totalPoints": 20711,
+      "isOnline": false,
+      "lastSeen": 1791185330225
+    }
+  ],
+  "friendships": [
+    {
+      "id": "fs_1791182762443_4q847",
+      "user1Id": "usr_1791173051615_du6x6",
+      "user2Id": "usr_1791180320855_omqiv",
+      "createdAt": 1791182762443
+    }
+  ],
+  "requests": [
+    {
+      "id": "fr_1791182757435_f8s15",
+      "senderId": "usr_1791173051615_du6x6",
+      "senderName": "حمد",
+      "senderUsername": "@player_3759",
+      "senderAvatar": "av_flame",
+      "receiverId": "usr_1791180320855_omqiv",
+      "receiverName": "حمد",
+      "receiverUsername": "@hamad",
+      "receiverAvatar": "av_shield",
+      "status": "accepted",
+      "createdAt": 1791182757435
+    }
+  ],
+  "blocks": []
+}

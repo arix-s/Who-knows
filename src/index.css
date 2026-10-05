@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: #04060a;
+    color: #f1f5f9;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    overscroll-behavior: none;
+  }
+}
+
+/* Flutter Material 3 Ripple & Tactile Effects */
+.flutter-touch {
+  transition: transform 0.15s cubic-bezier(0.2, 0, 0, 1), background-color 0.15s ease, border-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.flutter-touch:active {
+  transform: scale(0.97);
+}
+
+/* Material 3 Card Elevation */
+.flutter-card {
+  background-color: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  border-radius: 1.25rem; /* 20px */
+  backdrop-filter: blur(12px);
+}
+
+/* Custom Scrollbar for Mobile App */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.4);
+}
+
+/* Glow Utilities */
+.text-gold-glow {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
